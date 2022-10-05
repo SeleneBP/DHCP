@@ -6,7 +6,6 @@ En esta forma vamos a crear el servidor DHCP, lo vamos a configurar con dos tarj
 
 ------------------------------------------------------------------------------------------------------
 
-
-
-
+Empecemos con el servidor. 
+Nos metemos en el fichero de configuración /etc/network/interfaces, para configurar la ip estáticamente.
 
