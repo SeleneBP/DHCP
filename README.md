@@ -13,3 +13,7 @@ El protocolo DHCP permite tres métodos de asignación de direcciones IP:
 En el siguiente diagrama muestra los estados por el cual pasa el ordenador antes/durante y despues de pedir una IP.
 
 ![serviciodhcp](https://user-images.githubusercontent.com/91204696/194101293-0ed1fbb2-856c-4830-9738-3d5fe21d01a1.PNG)
+
+Cuando un cliente no tiene una dirección IP válida, está en el estado INIT. Durante el proceso de configuración inicial, el cliente se mueve al estado SELECTING, y en el momento en el que está configurado correctamente con una dirección IP, se mueve al estado BOUND. Cuando se reinicia el cliente, se pasa al estado INIT-REBOOT, y después de que se confirma que su dirección IP es válida, se mueve al estado BOUND. Si un servidor envía un mensaje DHCPNAK al cliente, el cliente vuelve al estado INIT.
+
+Antes de que expire el tiempo de concesión (lease time) de la dirección IP del cliente, éste entra en estado de RENEWING e intenta prorrogar su tiempo con esa IP mediante el envío de un mensaje unicast al servidor del que obtuvo su dirección IP. El cliente espera un tiempo, y si no recibe respuesta a su solicitud de renovación, entra en el estado de REBINDING y difunde un mensaje broadcast para extender su prorrogación en cualquier servidor disponible. Si el contrato de arrendamiento expira sin que el cliente renueve con éxito su concesión, el cliente vuelve al estado INIT.
