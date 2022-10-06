@@ -1,17 +1,17 @@
 # NOTAS
 >TODAS LAS MÁQUINAS UTILIZADAS USAN EN LA TARJETA DE RED EL MODO PROMICUO SELECCIONANDO 'PERMITIR TODO'
 
-![image](1.PNG)
+![image](img/1.PNG)
 
 ---------------------------------------------------------------------------------------------------------------
 
 > HAY QUE DESHABILITAR EL NETWORK MANAGER.
 
-![image](https://user-images.githubusercontent.com/91204696/194015888-7f8bee7c-fc47-4305-b59e-ef35b79a5a10.png)
+![image](img/2.PNG)
 
 >Reiniciamos el servicio networking
 
-![image](https://user-images.githubusercontent.com/91204696/194016146-e3392e6f-696a-430a-8ffc-427387c7b570.png)
+![image](img/3.PNG)
 
 
 
