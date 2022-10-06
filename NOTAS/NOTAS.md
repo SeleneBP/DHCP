@@ -1,7 +1,7 @@
 # NOTAS
 >TODAS LAS MÁQUINAS UTILIZADAS USAN EN LA TARJETA DE RED EL MODO PROMICUO SELECCIONANDO 'PERMITIR TODO'
 
-![image](https://user-images.githubusercontent.com/91204696/193893271-de7610f1-7b8d-403e-b26e-b1d3d232d612.png)
+![image](1.PNG)
 
 ---------------------------------------------------------------------------------------------------------------
 
