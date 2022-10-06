@@ -18,7 +18,13 @@ Ahora configuramos el siguiente fichero: **/etc/default/isc-dhcp-server**
 
 > Antes tendremos que mirar el nombre de nuestra tarjeta de red. En mi caso se llame *enp0s3*
 
+![image](img/2.PNG)
 
+También configuraremos el siguiente archivo: **/etc/dhcp/dhcpd.conf**
+
+![image](img/3.PNG)
+
+Por último reiniciaremos el cliente DHCP.SERVER -> ` systemctl restart isc-dhcp-server.service `
 
 -----------------------------------------------------------------------------------------
 #### LICENCIA
