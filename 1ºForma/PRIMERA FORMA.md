@@ -7,14 +7,16 @@ En esta forma vamos a crear el servidor DHCP, lo vamos a configurar con dos tarj
 ------------------------------------------------------------------------------------------------------
 
 Empecemos con el servidor. 
-Nos metemos en el fichero de configuración /etc/network/interfaces, para configurar la ip estáticamente.
+Nos metemos en el fichero de configuración **/etc/network/interfaces**, para configurar la ip estáticamente.
 
 ![image](img/1.PNG)
 
 Ahora reiniciaremos el servicio Networking -> 
 ` systemctl restart networking `
 
+Ahora configuramos el siguiente fichero: **/etc/default/isc-dhcp-server**
 
+> Antes tendremos que mirar el nombre de nuestra tarjeta de red. En mi caso se llame *enp0s3*
 
 
 
