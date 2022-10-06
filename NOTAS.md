@@ -12,3 +12,11 @@
 >Reiniciamos el servicio networking
 
 ![image](https://user-images.githubusercontent.com/91204696/194016146-e3392e6f-696a-430a-8ffc-427387c7b570.png)
+
+
+
+
+-----------------------------------------------------------------------------------------
+#### LICENCIA
+
+![Captura](https://user-images.githubusercontent.com/91204696/194259734-ea7fb593-0c30-4672-8a37-a5ad3a936e47.PNG)
