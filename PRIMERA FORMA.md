@@ -15,4 +15,4 @@ Nos metemos en el fichero de configuración /etc/network/interfaces, para config
 -----------------------------------------------------------------------------------------
 #### LICENCIA
 
-![Captura](https://user-images.githubusercontent.com/91204696/194259734-ea7fb593-0c30-4672-8a37-a5ad3a936e47.PNG)
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
