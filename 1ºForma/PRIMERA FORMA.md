@@ -26,6 +26,8 @@ También configuraremos el siguiente archivo: **/etc/dhcp/dhcpd.conf**
 
 Por último reiniciaremos el cliente DHCP.SERVER -> ` systemctl restart isc-dhcp-server.service `
 
+Para hacer la comprobación lo único que tenemos que hacer es cambiar la única tarjeta de red que tenemos y en vez de Adaptador Puente ponerlo en Red Interna. Luego en el cliente también ponemos Red Interna, lo abrimos y vamos a la CMD y vemos que IP nos ha proporcionado el servidor.
+
 -----------------------------------------------------------------------------------------
 #### LICENCIA
 
