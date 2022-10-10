@@ -1,7 +1,14 @@
 # FAILOVERS
 
+En esta forma vamos a crear el servidor DHCP, lo vamos a configurar con tres tarjetas;
 
+1º tarjeta: Adaptador puente; para poder salir a internet.
+2º tarjeta: Red interna; para conectar el cliente en una red propia del servidor.
+3º tarjeta: Adaptador puente.
 
+-----------------------------------------------------------------------------------------
+
+En el servidor ponemos una nueva tarjeta de red como adaptador puente y comentamos las demás. [NOTA 3](https://github.com/SeleneBP/DHCP/blob/main/NOTAS/NOTAS.md)
 
 
 -----------------------------------------------------------------------------------------
