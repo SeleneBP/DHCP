@@ -7,7 +7,15 @@ En esta forma vamos a crear el servidor DHCP, lo vamos a configurar con dos tarj
 ----------------------------------------------------------------------------------------
 Con la misma configuración del paso anterior añadimos otra tarjeta.
 
+![image](img/1.PNG)
 
+Reiniciamos el sistema ` systemctl restart networking.service `
+
+Modificamos el fichero de configuración  *dhcpd.conf* para cambiar los tiempos.
+
+![image](img/2.PNG)
+
+Ahora en 
 
 -----------------------------------------------------------------------------------------
 #### LICENCIA
