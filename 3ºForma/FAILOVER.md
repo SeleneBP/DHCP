@@ -1,6 +1,10 @@
 # FAILOVERS
 
-En esta forma vamos a crear el servidor DHCP, lo vamos a configurar con tres tarjetas;
+Un servidor *failover* sirve como respaldo del servidor principal, es decir, si el servidor dhcp principal cae, entra en acción el servidor failover, para poder seguir 
+dando direcciones IPS a todos los cliente. 
+
+----------------------------------------------------------------------------------------
+En esta forma vamos a crear el servidor DHCP y un FAILOVER, lo vamos a configurar con tres tarjetas;
 
 1º tarjeta: Adaptador puente; para poder salir a internet.
 2º tarjeta: Red interna; para conectar el cliente en una red propia del servidor.
@@ -50,6 +54,8 @@ Volvemos hacer lo mismo pero al contrario.
 En el SERVIDOR 1, apagamos el servicio *iscp* y en el cliente volvemos a poner -> ` ipconfig /release `.
 
 ![image](img/7.PNG)
+
+Vemos que esta vez el SERVIDOR 2 es el que nos ha proporcionado la IP.
 
 -----------------------------------------------------------------------------------------
 #### LICENCIA
