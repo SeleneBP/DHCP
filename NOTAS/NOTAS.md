@@ -5,14 +5,21 @@
 
 ---------------------------------------------------------------------------------------------------------------
 
-> HAY QUE DESHABILITAR EL NETWORK MANAGER.
+> NOTA 1
+
+Hay que deshabilitar el NetworkManager
 
 ![image](img/2.PNG)
 
->Reiniciamos el servicio networking
+> NOTA 2
+
+Reiniciamos el servicio networking
 
 ![image](img/3.PNG)
 
+> NOTA 3
+
+En este apartado no hace falta comentar las tarjeta de red, simplemente lo hacemos para que sea mucho más fácil y no nos liemmos.
 
 
 
