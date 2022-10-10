@@ -19,6 +19,14 @@ Ahora en la misma terminal abrimos dos pestañas.
 
 En una ponemos ` tail -f /var/log/syslog ` y en la otra abrimos el fichero **/var/lib/dhcpd.lease**, borramos todo lo que haya dentro y lo dejamos abierto.
 
+![image](img/3.PNG)
+
+![image](img/4.PNG)
+
+Resultado dentro del fichero *dhcpd.lease*: 
+
+![image](img/5.PNG)
+
 -----------------------------------------------------------------------------------------
 #### LICENCIA
 
