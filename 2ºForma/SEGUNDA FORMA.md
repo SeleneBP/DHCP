@@ -27,7 +27,7 @@ Resultado dentro del fichero *dhcpd.lease*:
 
 ![image](img/5.PNG)
 
-Esto lo hemos hecho para ver el recorrido que hace el [DHCP](README.md), como explicamos anteriormente.
+Esto lo hemos hecho para ver el recorrido que hace el [DHCP](https://github.com/SeleneBP/DHCP/blob/main/README.md), como explicamos anteriormente.
 
 -----------------------------------------------------------------------------------------
 #### LICENCIA
