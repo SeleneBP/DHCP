@@ -21,7 +21,7 @@ INIT-REBOOT, hay muchas ocasiones en las que vuelve a dar la misma direccion IP.
 nuevo al estado BOUND.
 Si el servidor envia una petición al cliente (DHCPNAK), el cliente vuelve al estado INIT.
 
-¿Qué pasa si expira el tiempo de concesión (lease time)? El cliente entra en estado RENEWING intentando asi prorrogar su 
+¿Qué pasa si expira el tiempo de concesión (lease time)? El cliente entra en estado RENEWING intentando así prorrogar su 
 tiempo con esa IP, enviando un mensaje unicast al servidor del que obtuvo la dirección IP. El cliente espera, pero si no 
 recibe una respuesta a su solicitud de renovacion, pasa al estado REBINDING y manda un mensaje broadcast a todos los 
 servidores disponibles para obtener su prorrogación, pero si la IP expira sin obtener su prorrogación, el cliente vuelve
