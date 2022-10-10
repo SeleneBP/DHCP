@@ -31,7 +31,9 @@ Reiniciamos -> ` systemctl restart isc-dhcp-server `
 Clonamos la máquina SERVIDOR 1 y a la máquina clon le cambiamos el nombre SERVIDOR 2.
 
 En el SERVIDOR 2, solo cambiamos la IP, porque al ser clonada vendrá la IP del SERVIDOR. 
+
 >Ip nueva: 192.168.1.3
+
 También tenemos que cambiar la IP en el *failover*.
 
 
