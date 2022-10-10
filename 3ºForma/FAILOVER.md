@@ -39,6 +39,18 @@ También tenemos que cambiar la IP en el *failover*.
 
 ![image](img/5.PNG)
 
+Para hacer la comprobación en el SERVIDOR 2, apagamos el servicio *iscp* y en el cliente ponemos -> ` ipconfig /release `, para que nos renueve la IP y miramos nuestra IP y que servidor nos lo ha proporcionado.
+
+![image](img/6.PNG)
+
+Vemos que la IP que nos ha dado ha sido el SERVIDOR 1. 
+
+Volvemos hacer lo mismo pero al contrario.
+
+En el SERVIDOR 1, apagamos el servicio *iscp* y en el cliente volvemos a poner -> ` ipconfig /release `.
+
+![image](img/7.PNG)
+
 -----------------------------------------------------------------------------------------
 #### LICENCIA
 
