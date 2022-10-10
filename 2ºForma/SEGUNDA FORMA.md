@@ -15,7 +15,9 @@ Modificamos el fichero de configuración  *dhcpd.conf* para cambiar los tiempos.
 
 ![image](img/2.PNG)
 
-Ahora en 
+Ahora en la misma terminal abrimos dos pestañas.
+
+En una ponemos ` tail -f /var/log/syslog ` y en la otra abrimos el fichero **/var/lib/dhcpd.lease**, borramos todo lo que haya dentro y lo dejamos abierto.
 
 -----------------------------------------------------------------------------------------
 #### LICENCIA
