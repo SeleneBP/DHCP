@@ -10,6 +10,13 @@ En esta forma vamos a crear el servidor DHCP, lo vamos a configurar con tres tar
 
 En el servidor ponemos una nueva tarjeta de red como adaptador puente y comentamos las demás. [NOTA 3](https://github.com/SeleneBP/DHCP/blob/main/NOTAS/NOTAS.md)
 
+![image](img/1.PNG)
+
+Reiniciamos el servicio -> ` systemctl restart networking `
+
+Nos metemos en el fichero **/etc/dhcp/dhcpd.conf** y añadimos las siguientes líneas:
+
+![image](img/2.PNG)
 
 -----------------------------------------------------------------------------------------
 #### LICENCIA
