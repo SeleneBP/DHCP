@@ -18,6 +18,25 @@ Nos metemos en el fichero **/etc/dhcp/dhcpd.conf** y añadimos las siguientes l�
 
 ![image](img/2.PNG)
 
+Y luego nos vamos a **/etc/dhcp/dhcpd.conf** y configuramos el *failover*.
+
+![image](img/3.PNG)
+
+También configuramos **/etc/defaul/isc-dhcp-server**. Aquí simplemente ponemos en las opciones *-f -d*, para forzar a poner la tarjeta de red.
+
+![image](img/4.PNG)
+
+Reiniciamos -> ` systemctl restart isc-dhcp-server `
+
+Clonamos la máquina SERVIDOR 1 y a la máquina clon le cambiamos el nombre SERVIDOR 2.
+
+En el SERVIDOR 2, solo cambiamos la IP, porque al ser clonada vendrá la IP del SERVIDOR. 
+>Ip nueva: 192.168.1.3
+También tenemos que cambiar la IP en el *failover*.
+
+
+![image](img/5.PNG)
+
 -----------------------------------------------------------------------------------------
 #### LICENCIA
 
