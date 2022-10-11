@@ -21,6 +21,12 @@ Reiniciamos el servicio networking
 
 En este apartado no hace falta comentar las tarjeta de red, simplemente lo hacemos para que sea mucho más fácil y no nos liemmos.
 
+> NOTA 4
+Todo lo que ponga *failover* en este caso lo comentamos o lo borramos y donde ponga *authoritative* también. Esto se hace en el fichero de configuracion de ambos servidores. (**/etc/dhcp/dhcpd.conf**)
+
+![image](img/4.PNG)
+
+![image](img/5.PNG)
 
 
 -----------------------------------------------------------------------------------------
