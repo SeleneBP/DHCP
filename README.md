@@ -30,7 +30,7 @@ al estado INIT.
 -----------------------------------------------------------------------------------------
 ## REFERENCIAS 
 
-[Tutorial serivicio DHCP](https://www.fpgenred.es/DHCP/)
+[Tutorial servicio DHCP](https://www.fpgenred.es/DHCP/)
 
 
 -----------------------------------------------------------------------------------------
