@@ -31,7 +31,10 @@ al estado INIT.
 
 Empecemos: 
 
-[1º Forma:] (https://github.com/SeleneBP/DHCP/blob/main/1ºForma/PRIMERA%20FORMA.md)
+[1º Forma:](https://github.com/SeleneBP/DHCP/blob/main/1ºForma/PRIMERA%20FORMA.md)
+[2º Forma:]
+[3º Forma:]
+[4º Forma:]
 
 -----------------------------------------------------------------------------------------
 ## REFERENCIAS 
