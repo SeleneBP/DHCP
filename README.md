@@ -28,6 +28,11 @@ servidores disponibles para obtener su prorrogación, pero si la IP expira sin o
 al estado INIT.
 
 -----------------------------------------------------------------------------------------
+
+Empecemos: 
+
+1º Forma: (https://github.com/SeleneBP/DHCP/blob/main/1ºForma/PRIMERA%20FORMA.md)
+-----------------------------------------------------------------------------------------
 ## REFERENCIAS 
 
 [Tutorial servicio DHCP](https://www.fpgenred.es/DHCP/)
